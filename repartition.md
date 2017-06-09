@@ -1,4 +1,4 @@
-###Repartition des tâches
+### Repartition des tâches
 - Design HTML : Thomas
 - Prototype du tamagotchi : 
 - Classe organes : Jordan
