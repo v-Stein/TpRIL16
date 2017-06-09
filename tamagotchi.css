@@ -1,32 +1,45 @@
 #main{
-    background-color: red;
     display: flex;
-    
-    width: 700px;
+    flex-direction: row;
+    width: 1600px;
     height: 700px;
 }
 
 #left{
-   flex-direction: raw; 
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
 }
 
 #right{
-    flex-direction: raw; 
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
 }
 
 #cat{  
-
-    background-color: blue;
+    width: 100%;
 }
 
 #status{
-    background-color: green;
+    width: 100%;
+    background-color: grey;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 #action{
-    background-color: yellow;
+    width: 15%;
+    display: flex;
 }
 
 #history{
-    background-color: lightcoral;
+    width: 50%;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: grey;
+}
+
+button{
+    size: 40px;
 }
