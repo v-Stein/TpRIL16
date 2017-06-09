@@ -1,0 +1,32 @@
+#main{
+    background-color: red;
+    display: flex;
+    
+    width: 700px;
+    height: 700px;
+}
+
+#left{
+   flex-direction: raw; 
+}
+
+#right{
+    flex-direction: raw; 
+}
+
+#cat{  
+
+    background-color: blue;
+}
+
+#status{
+    background-color: green;
+}
+
+#action{
+    background-color: yellow;
+}
+
+#history{
+    background-color: lightcoral;
+}
